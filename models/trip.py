@@ -2,7 +2,7 @@ import json
 import numpy as np
 from shapely import geometry
 
-from app import db
+from database import db
 from support.serializer import Serializer
 from shapely.geometry import Point
 from shapely.geometry.polygon import Polygon
